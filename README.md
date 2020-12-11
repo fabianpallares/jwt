@@ -22,7 +22,7 @@ import (
 func main() {
     var datos = map[string]interface{}{
 	    "id":     1234,
-		"nombre": "un nombre",
+        "nombre": "un nombre",
     }
     var clave = "UnaClaveMuyCompleja"
     var expira = time.Now().Add(time.Hour * 1) // expira en una hora
