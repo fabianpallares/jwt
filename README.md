@@ -21,7 +21,7 @@ import (
 
 func main() {
     var datos = map[string]interface{}{
-	    "id":     1234,
+        "id":     1234,
         "nombre": "un nombre",
     }
     var clave = "UnaClaveMuyCompleja"
